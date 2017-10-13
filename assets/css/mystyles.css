@@ -1,4 +1,4 @@
- .navbar-default {
+.navbar-default {
     background-color: #0066CC;
     border-color: #1072D3;
     color: #FFF!important;
@@ -27,7 +27,10 @@ a:hover, a:focus {
     color: #104981;
 }
 
-#PageImage img {
-    width: 100%;
-    margin: 0 auto;
+.navbar-default .navbar-brand {
+    color: #FFF!important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF!important;
 }
